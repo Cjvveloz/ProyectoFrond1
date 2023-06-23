@@ -1,0 +1,714 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.container{
+    
+    width: 1440px;
+}
+body{
+    font-family: 'Be Vietnam ';
+    background: #F5F5F5;
+}
+/* comenzamos con el header */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.logotipo{
+    display: flex;
+    align-items: center;
+    padding: 16px;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    width: 40vw ;
+}
+li{
+    margin-left: 30px;
+}
+
+.item-nav{
+    text-decoration: none;
+}
+.contact{
+    display: flex;
+    margin-right: 70px;
+    background: #8B48BF;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    
+}
+.contactoheader{
+    position: relative;
+    text-decoration: none;
+    margin-right: 40px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 27px;
+    padding-right: 27px;
+    color: #FFFFFF;
+    display: flex;
+    margin-right: 70px;
+    background: #8B48BF;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    top: 15px;
+    right: 50px;
+}
+.burguer-menu{
+    display: none;
+}
+
+/* aqui comenzamos con el main */
+
+.sect1{
+    display: flex;
+    justify-content: center;
+}
+.img1{
+    width: 540px;
+height: 461.07px;
+}
+.titulo{
+    width: 450px;
+height: 228px;
+
+/* font-family: 'Be Vietnam'; */
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 114.6%;
+/* or 57px */
+
+display: flex;
+align-items: center;
+text-align: right;
+letter-spacing: -0.035em;
+
+color: #232C50;
+}
+.contenido1{
+    width: 450px;
+height: 71px;
+
+/* font-family: 'Be Vietnam'; */
+font-style: normal;
+font-weight: 500;
+font-size: 16.5584px;
+line-height: 157.1%;
+/* or 26px */
+
+display: flex;
+align-items: center;
+text-align: right;
+
+color: #000000;
+margin-bottom: 15px;
+}
+.contactomain{
+    margin-top: 10%;
+    margin-left: 80%;
+text-align: center;
+padding: 10px;
+gap: 10px;
+width: 134px;
+height: 44px;
+background: #8B48BF;
+border-radius: 50px;
+text-decoration: none;
+color: #FFFFFF;
+}
+.sect2{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 40px 0px;
+gap: 100px;
+
+width: 1440px;
+height: 168px;
+left: 0px;
+top: 817px;
+
+background: #8B48BF;
+}
+.titulo2{
+width: 450px;
+height: 88px;
+font-family: 'Be Vietnam';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 114.6%;
+/* or 41px */
+display: flex;
+align-items: center;
+color: #FFFFFF;
+
+}
+.text2{
+width: 450px;
+height: 88px;
+/* font-family: 'Be Vietnam'; */
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 151.1%;
+/* or 24px */
+display: flex;
+align-items: center;
+color: #FFFFFF;
+}
+.sect3{
+    display: flex;
+align-items: center;
+flex-direction: row;
+padding: 40px 0px;
+gap: 24px;
+width: 1440px;
+height: 200px;
+left: -1px;
+top: 985px;
+background: #FAFAFA;
+}
+.sect-4{
+    background: #FAFAFA;
+
+}
+.button1, .button2, .button3{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 15px;
+gap: 10px;
+color: white;
+width: 35px;
+height: 25px;
+text-decoration: none;
+background: #8B48BF;
+border-radius: 30px;
+margin-right: 15px;
+}
+.sect3-text1{
+width: 300px;
+height: 23px;
+font-family: 'Be Vietnam';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 23px;
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+letter-spacing: -0.015em;
+
+color: #323851;
+}
+.sect3-text2{
+    width: 437px;
+    height: 104px;
+    font-family: 'Be Vietnam';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16.2984px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.01em;
+    color: #B3B2B7;
+    margin-left: 80px;
+    background: #FAFAFA;
+
+
+}
+.sect3-art1{
+    margin-left: 150px;
+}
+.sect3-art2{
+    margin-left: 500px;
+}
+
+.titulo3{
+width: 1440px;
+Font-family: 'Be Vietnam';
+font-style: normal;
+font-weight: 700;
+font-size: 39.2143px;
+line-height: 156.6%;
+text-align: center;
+letter-spacing: -0.01em;
+color: #242E53;
+background: #F5F5F5;
+margin-top: 100px;
+}
+
+.sect4{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    background: #FAFAFA;
+    position: absolute;
+    
+}
+.divti{
+    height: 150px;
+}
+.sect4-art1{
+    height: 220px;
+width: 445px;
+left: 71px;
+top: 1680px;
+border-radius: 0px;
+background: #FAFAFA;
+
+
+}
+.img-sect4-1{
+    position: absolute;
+    left: 190px;
+    bottom: 190px;
+}
+.img2-sect4-2{
+    position: absolute;
+    left: 630px;
+    bottom: 190px;
+}
+
+.img3-sect4-3{
+    position: absolute;
+    left: 1080px;
+    bottom: 190px;
+}
+
+.sect4-title, .sect4-title-1{
+    text-align: center;
+    margin-top: 55px;
+}
+.sect4-text, .sect4-text-1{
+    margin-top: 20px;
+font-family: 'Be Vietnam';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 156.6%;
+/* or 25px */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #B9B9C1;
+}
+
+
+.button-4{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    position: absolute;
+    width: 134px;
+    height: 44px;
+    left: 653px;
+    top: 1800px;
+    background: rgba(139, 72, 191, 0.7);
+    border-radius: 50px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.sect5{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0px;
+    gap: 100px;
+    position: absolute;
+    width: 1440px;
+    height: 168px;
+    left: 0px;
+    top: 2000px;
+    
+    background: #8B48BF;
+    }
+    .titulo5{
+    position: absolute;
+    width: 450px;
+    height: 88px;
+    font-family: 'Be Vietnam';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 114.6%;
+    /* or 41px */
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    left:200px;
+    top: 75px;
+    
+    }
+    .art5{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    width: 134px;
+    height: 44px;
+    margin-left: 600px;
+    margin-top: 0;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+        }
+    .got{
+        color: #8B48BF;
+        text-decoration: none;
+    }
+    
+    .fot{
+    display: flex;
+    position: absolute;
+    width: 1440px;
+    height: 247px;
+    left: 0px;
+    top: 2245px;
+    background: #1E1E26;
+    }
+    .fot-1{
+        position: absolute;
+        top: 50px;
+        left: 150px;
+    }
+
+    .fot-2{
+        position: absolute;
+        top: 150px;
+        left: 110px;
+    }
+    .fot-3{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        top: 50px;
+        left: 350px;
+        
+    }
+    .menuf{
+        text-decoration: none;
+        color: white;
+        size: 12px;
+        margin-top: 10px;
+    }
+    .fot-4{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        top: 50px;
+        left: 650px;
+    }
+    .fot-5{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        top: 70px;
+        left: 1000px;
+    }
+    .icon{
+        margin-left: 15px;
+    }
+    .about{
+        color:  #A0A0A0;
+        background-color: white;
+        font-family: 'Be Vietnam';
+        font-size: 13px;
+        font-weight: 600;
+        line-height: 19px;
+        letter-spacing: 0em;
+        text-align: left;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 50px;
+    }
+    .go{
+        position: absolute;
+        
+        color: white;
+        background-color: #8B48BF;
+        left: 190px;
+        padding: 10px;
+        border-radius: 15px;
+        text-decoration: none;
+    }
+    .Copyright{
+        position: absolute;
+        right: 210px;
+        bottom: 30px;
+        font-family: 'Be Vietnam';
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 18px;
+        letter-spacing: 0em;
+        text-align: left;
+        color:  #8C8C94;
+        text-decoration: none;
+    }
+
+    /* MEDIDAS-QUERIES */
+
+    @media (max-width: 480px){
+        /*smartphones más pequeños*/
+        body{
+            width: 33%;
+        }
+        .container{
+            display: flex;
+            flex-direction: column;
+        }
+        header{
+            display: flex;
+            flex-direction: column;
+        }
+        .menu{
+            display: none;
+        }
+        .burguer-menu{
+            display: flex;
+            position: absolute;
+            width: 60px;
+            left: 410px;
+            top: 20px;
+        }
+        .contactoheader{
+            display: none;
+        }
+        main{
+            display: flex;
+            flex-direction: column;
+        }
+        footer{
+            display: flex;
+            flex-direction: column;
+        }
+        .logoprincipal{
+            position: absolute;
+            left: 50px;
+            top: 30px;
+        }
+        .sect1, .sect2, .sect3{
+            display: flex;
+            flex-direction: column;
+            width: 33%;
+        }
+        .img1{
+            width: 420px;
+            height: 430px;
+            margin-top: 15px;
+        }
+        .sect2{
+            height: 200px;
+            margin-top: 20px;
+            background: #3CDDF3;
+
+        }
+        .titulo2, .text2{
+            margin-left: 30px;    
+        }
+        .sect3-text1, .sect3-text2{
+            display: flex;
+            flex-direction: column;
+            margin-left: 5px;
+           
+
+        }
+        .button1{
+            position: absolute;
+            left: 0px;
+            top: 1173px;
+            
+        }
+        .button2{
+            position: absolute;
+            left: 0px;
+            top: 1376px;
+            
+        }
+        .button3{
+            position: absolute;
+            left: 0px;
+            top: 1513.5px;
+            
+        }
+        .sect3-text1{
+            background-color: #8B48BF4D;
+            width: 400px;
+            height: 35px;
+            padding-top: 10px;
+            margin-left: 16px;
+        }
+        .sect3-text2{
+            margin-top: 30px;
+            
+
+        }
+        .sect3-art1{
+            display: flex;
+            flex-direction: column;
+            margin-left: 5px;
+        }
+        .sect3-art2{
+            margin-left: 5px;
+            margin-top: 10px;
+        }
+        .sect-4{
+            display: flex;
+            flex-direction: column;
+            width: 33%;
+            margin-top: 90px;
+        }
+
+        .divti, .titulo3{
+            width: 30%;
+        }
+        .titulo3{
+            height: 300px;
+            width: 300px;
+            padding-left: 80px;
+        }
+        
+        .sect4{
+            display: flex;
+            flex-direction: column;
+            top: 2000px;
+            bottom: 0px;
+            left: 0px;
+            right: 0px;
+        }
+        .img-sect4{
+            display: flex;
+            flex-direction: column;
+            left: 190px;
+        }
+        .sect4-art1{
+            margin-top: 10px;
+        }
+        .img-sect4-1{
+            
+            bottom: 50px;
+        }
+        .img2-sect4-2{
+            display: none;
+            left: 190px;
+            bottom: 20px;
+        }
+        .img3-sect4-3{
+            display: none;
+            left: 190px;
+            bottom: 0px;
+            top: 90px;
+        }
+        .sect4-text, .sect4-title{
+            display: none;
+        }
+        .button-4{
+            left: 180px;
+            top: 2200px;
+            bottom: 0px;
+        }
+        .sect5{
+            display: flex;
+            flex-direction: column;
+            top: 2300px;
+            width: 480px;
+            background: #3CDDF3;
+
+        }
+        .titulo5{
+            left: 0px;
+            top: 45px;
+        }
+        .art5{
+           margin-left: 0px; 
+           background: #232C50;
+            
+        }
+        .got{
+            color:#FFFFFF;
+        }
+        .fot{
+            top: 2545px;
+            width: 480px;
+            height: 400px;
+        }
+        .fot-1{
+            top: 300px;
+        }
+        .fot-2{
+            top: 250px;
+            left: 70px;
+        }
+        .icon{
+            margin-right: 40px;
+        }
+        .fot-3{
+            left: 50px;
+            top: 80px;
+        }
+        
+        .fot-4{
+            left: 280px;
+            top: 80px;
+        }
+        .fot-5{
+            left: 115px;
+            top: 40px;
+        }
+        .Copyright{
+            left: 115px;
+            width: 300px;
+            top: 350px;
+        }
+    }
+
+    /* Usando pseudoelementos */
+
+    .contactoheader:hover {  
+            color: gray;  
+            background-color: #8B48BF4D;
+            text-decoration: none;
+        } 
+    .contactomain:hover {  
+        color: gray;  
+        background-color: #8B48BF4D;
+        text-decoration: none;
+    } 
+    .button-4:hover{  
+        color: gray;  
+        background-color: #8B48BF4D;
+        text-decoration: none;
+    } 
+    .art5:hover{
+        color: gray;
+        background-color: #f0ecf3;
+        text-decoration: none;
+    }
+    .got:hover{
+        color: gray;
+    }
