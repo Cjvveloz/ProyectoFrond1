@@ -8,9 +8,8 @@
     width: 1440px;
 }
 body{
-    font-family: 'Be Vietnam ';
-    background: #F5F5F5;
-}
+        background: #F5F5F5;
+} 
 /* comenzamos con el header */
 
 header{
@@ -29,6 +28,7 @@ nav ul{
     justify-content: center;
     list-style: none;
     width: 40vw ;
+    font-family: 'Be Vietnam', sans-serif;
 }
 li{
     margin-left: 30px;
@@ -75,41 +75,33 @@ li{
 }
 .img1{
     width: 540px;
-height: 461.07px;
+    height: 461.07px;
 }
 .titulo{
     width: 450px;
 height: 228px;
-
-/* font-family: 'Be Vietnam'; */
+font-family: 'Be Vietnam', sans-serif;
 font-style: normal;
 font-weight: 700;
 font-size: 50px;
 line-height: 114.6%;
-/* or 57px */
-
 display: flex;
 align-items: center;
 text-align: right;
 letter-spacing: -0.035em;
-
 color: #232C50;
 }
 .contenido1{
     width: 450px;
 height: 71px;
-
-/* font-family: 'Be Vietnam'; */
+font-family: 'Be Vietnam', sans-serif; 
 font-style: normal;
 font-weight: 500;
 font-size: 16.5584px;
 line-height: 157.1%;
-/* or 26px */
-
 display: flex;
 align-items: center;
 text-align: right;
-
 color: #000000;
 margin-bottom: 15px;
 }
@@ -133,43 +125,41 @@ justify-content: center;
 align-items: center;
 padding: 40px 0px;
 gap: 100px;
-
 width: 1440px;
 height: 168px;
 left: 0px;
 top: 817px;
-
 background: #8B48BF;
 }
 .titulo2{
 width: 450px;
 height: 88px;
-font-family: 'Be Vietnam';
+font-family: 'Be Vietnam', sans-serif;
 font-style: normal;
 font-weight: 700;
 font-size: 36px;
 line-height: 114.6%;
-/* or 41px */
 display: flex;
 align-items: center;
 color: #FFFFFF;
 
 }
 .text2{
+    position: absolute;
 width: 450px;
 height: 88px;
-/* font-family: 'Be Vietnam'; */
+font-family: 'Be Vietnam', sans-serif;
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: 151.1%;
-/* or 24px */
 display: flex;
 align-items: center;
 color: #FFFFFF;
+
 }
 .sect3{
-    display: flex;
+display: flex;
 align-items: center;
 flex-direction: row;
 padding: 40px 0px;
@@ -182,6 +172,7 @@ background: #FAFAFA;
 }
 .sect-4{
     background: #FAFAFA;
+   
 
 }
 .button1, .button2, .button3{
@@ -199,10 +190,11 @@ background: #8B48BF;
 border-radius: 30px;
 margin-right: 15px;
 }
+
 .sect3-text1{
-width: 300px;
+width: 350px;
 height: 23px;
-font-family: 'Be Vietnam';
+font-family: 'Be Vietnam', sans-serif;
 font-style: normal;
 font-weight: 700;
 font-size: 16px;
@@ -211,13 +203,12 @@ display: flex;
 flex-wrap: wrap;
 align-items: center;
 letter-spacing: -0.015em;
-
 color: #323851;
 }
 .sect3-text2{
     width: 437px;
     height: 104px;
-    font-family: 'Be Vietnam';
+    font-family: 'Be Vietnam', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16.2984px;
@@ -226,6 +217,7 @@ color: #323851;
     align-items: center;
     letter-spacing: -0.01em;
     color: #B3B2B7;
+    margin-top: 15px;
     margin-left: 80px;
     background: #FAFAFA;
 
@@ -240,7 +232,7 @@ color: #323851;
 
 .titulo3{
 width: 1440px;
-Font-family: 'Be Vietnam';
+Font-family: 'Be Vietnam', sans-serif;
 font-style: normal;
 font-weight: 700;
 font-size: 39.2143px;
@@ -296,7 +288,7 @@ background: #FAFAFA;
 }
 .sect4-text, .sect4-text-1{
     margin-top: 20px;
-font-family: 'Be Vietnam';
+font-family: 'Be Vietnam', sans-serif;
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
@@ -346,9 +338,9 @@ color: #B9B9C1;
     }
     .titulo5{
     position: absolute;
-    width: 450px;
+    width: 480px;
     height: 88px;
-    font-family: 'Be Vietnam';
+    font-family: 'Be Vietnam', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -405,6 +397,7 @@ color: #B9B9C1;
         position: absolute;
         display: flex;
         flex-direction: column;
+        font-family: 'Be Vietnam', sans-serif;
         top: 50px;
         left: 350px;
         
@@ -419,6 +412,7 @@ color: #B9B9C1;
         position: absolute;
         display: flex;
         flex-direction: column;
+        font-family: 'Be Vietnam', sans-serif;
         top: 50px;
         left: 650px;
     }
@@ -528,14 +522,19 @@ color: #B9B9C1;
             background: #3CDDF3;
 
         }
-        .titulo2, .text2{
+        .titulo2{
             margin-left: 30px;    
+        }
+        .text2{
+        left: 30px;
+        margin-left: 0px;
+        top: 1000px;
         }
         .sect3-text1, .sect3-text2{
             display: flex;
             flex-direction: column;
             margin-left: 5px;
-           
+
 
         }
         .button1{
@@ -553,7 +552,7 @@ color: #B9B9C1;
         .button3{
             position: absolute;
             left: 0px;
-            top: 1513.5px;
+            top: 1563px;
             
         }
         .sect3-text1{
@@ -581,7 +580,7 @@ color: #B9B9C1;
             display: flex;
             flex-direction: column;
             width: 33%;
-            margin-top: 90px;
+            margin-top: 140px;
         }
 
         .divti, .titulo3{
@@ -590,7 +589,9 @@ color: #B9B9C1;
         .titulo3{
             height: 300px;
             width: 300px;
-            padding-left: 80px;
+            padding-left: 95px;
+            margin-top: 40px;
+
         }
         
         .sect4{
